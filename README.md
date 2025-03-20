@@ -5,7 +5,7 @@
 This project extracts and analyzes **IMDb 2024 movie data** using **Selenium, Python, and SQL**. It provides interactive **visualizations and filtering** with **Streamlit**, allowing users to explore movie ratings, genres, durations, and voting trends.  
 
 ### 🚀 **Key Features:**  
-✅ **Web Scraping**: Extract IMDb movie data using Selenium.  
+✅ **Web Scraping**: Extract IMDb movie data [link](https://www.imdb.com/search/title/?title_type=feature&release_date=2024-01-01,2024-12-31) using Selenium.  
 ✅ **Data Storage**: Store structured data in **SQL databases**.  
 ✅ **Data Analysis**: Clean, organize, and merge data into a single dataset.  
 ✅ **Interactive Dashboard**: Use **Streamlit** for dynamic visualizations.  
@@ -13,8 +13,8 @@ This project extracts and analyzes **IMDb 2024 movie data** using **Selenium, Py
 
 ### 🛠 **Tech Stack:**  
 - **Languages**: Python  
-- **Libraries**: Selenium, Pandas, Matplotlib, Seaborn, SQLAlchemy  
-- **Database**: MySQL/PostgreSQL  
+- **Libraries**: Selenium, Pandas, Matplotlib, Seaborn, Python-mysql-connector  
+- **Database**: MySQL/PostgreSQL (TiDB Cloud)
 - **Visualization**: Streamlit  
 
 ### 📌 **Business Use Cases:**  
